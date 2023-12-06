@@ -1,0 +1,43 @@
+.filter-stories{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+
+}
+.sorting-buttons{
+    display: grid;
+    grid-template-columns: 125px repeat(4,100px);
+    gap: 7px;
+}
+#sortStories{
+    grid-template-columns: 125px repeat(3,100px);
+}
+.sorting-buttons>button{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    background-color: transparent;
+    color: #005B3F;
+    border: 1px solid #005B3F;
+    border-radius: 5px;
+}
+
+.sorting-buttons>button:hover{
+    background-color: #005B3F;
+    color: white;
+    border: 1px solid #005B3F;
+}
+.sorting-buttons>button::after{
+    border: 1px solid #005B3F;
+    background-color: #005B3F;
+}
+.sorting-buttons>button::before{
+    border: 1px solid #005B3F;
+    background-color: #005B3F;
+}
+.sorting-buttons>.sorting-active{
+    background-color: #005B3F;
+    color: white;
+    border: 1px solid #005B3F;
+}

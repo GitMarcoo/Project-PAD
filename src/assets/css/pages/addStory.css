@@ -1,0 +1,243 @@
+/*@media screen and (max-width: 600px) {*/
+/*    .image-upload img {*/
+/*        margin-top: -10px;*/
+/*    }*/
+/*}*/
+
+
+.createStoryForm {
+    max-width: 800px;
+}
+
+.upperForm{
+    max-height: 130px;
+}
+
+.inputRows{
+    height: 30px;
+    font-size: 18px;
+}
+
+
+
+
+
+.inputRows:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.storyTextarea {
+    min-height: 100px;
+    border: lightgrey 1px solid;
+    height: 300px;
+}
+
+.imgPreview {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+.imgPreviewFigure {
+    max-height: 120px;
+    max-width: 160px;
+    min-width: 120px;
+    min-height: 120px;
+}
+
+
+.imgInput {
+    display: none;
+    color: transparent;
+    background: transparent;
+}
+
+.imgLabel{
+    background-color: #005B3F;
+    max-width: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius:10px;
+    height:25px;
+    line-height: 25px;
+    text-align:center;
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+
+}
+
+.imgLabel:hover{
+    background-color: #196b52;
+    border-color: #196b52;
+}
+
+
+
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+
+/*body {*/
+/*    font-family: Verdana;*/
+/*    font-weight: lighter;*/
+/*    justify-content: center;*/
+/*    align-items: normal;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.container {*/
+/*    background-color: #EBF5F3;*/
+/*    max-width: 800px;*/
+/*    !*margin: 0 auto;*!*/
+
+/*}*/
+
+
+/*h1 {*/
+/*    !*position: relative;*!*/
+/*    color: #167A8B;*/
+/*    text-align: center;*/
+/*    font-size: 30px;*/
+/*    margin-top: 25px;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*div.row {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+
+/*#centre {*/
+/*    background-color: #EBF5F3;*/
+/*    text-align: center;*/
+/*    margin: auto 30px;*/
+/*    max-width: 600px;*/
+/*}*/
+
+
+/*.caption {*/
+/*    display: block;*/
+/*    margin-top: 5px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*input[type=text],*/
+/*select,*/
+/*textarea {*/
+/*    padding: 12px 20px;*/
+/*    margin-top: 30px;*/
+/*    width: 100%;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*textarea {*/
+/*    resize: none;*/
+/*    padding: 12px 20px;*/
+/*    margin-top: 30px;*/
+/*    width: 100%;*/
+/*    display: block;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*    box-sizing: border-box;*/
+/*    min-height: 150px; !* Or any other value you prefer *!*/
+/*}*/
+
+
+/*.right {*/
+/*    background-color: #7EB09B;*/
+/*    padding: 10px;*/
+/*    height: auto;*/
+/*    text-align: center;*/
+/*    margin-left: 0;*/
+/*    margin-top: 30px;*/
+/*}*/
+
+/*.column {*/
+/*    width: 100%;*/
+/*}*/
+
+/*input[type=submit] {*/
+/*    background-color: #04AA6D;*/
+/*    border: none;*/
+/*    color: white;*/
+/*    padding: 16px 32px;*/
+/*    text-decoration: none;*/
+/*    margin: 40px auto;*/
+/*    display: block;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*#first div {*/
+/*    border: #565656 1px solid;*/
+/*    border-radius: 5px;*/
+/*    margin: 5px;*/
+/*    padding: 5px;*/
+/*    display: flex;*/
+/*}*/
+
+/*#first div p {*/
+/*    margin: auto 5px;*/
+/*    word-break: break-all;*/
+/*}*/
+
+/*#sampleFile {*/
+/*    display: none;*/
+/*}*/
+
+/*label {*/
+/*    cursor: pointer;*/
+/*}*/
+
+.error {
+    color: red;
+    /*margin-top: 10px;*/
+    font-size: 15px;
+}
+
+/*.image-upload {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    margin-top: 0px;*/
+/*    position: relative;*/
+/*    width: 100%;*/
+/*    height: 20%;*/
+/*}*/
+
+/*.image-upload img {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*    display: block;*/
+/*    margin: 0px auto auto;*/
+/*    width: 50px;*/
+/*}*/
+
+/*.caption {*/
+/*    margin-left: 10px;*/
+
+/*    text-align: center;*/
+/*    margin-bottom: 10px;*/
+/*    font-size: 16px;*/
+/*}*/
+
+/*#sampleFile {*/
+/*    display: none;*/
+/*}*/
+
+/*.upload:hover{*/
+/*    background-color: lightseagreen;*/
+/*}*/
+
+
+

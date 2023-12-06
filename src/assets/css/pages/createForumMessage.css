@@ -1,0 +1,97 @@
+
+.forum-container{
+    margin: auto;
+    width: 50%;
+    height: 100vh;
+    padding-top: 15px;
+}
+.forum-titel{
+    color: #167A8B;
+}
+
+#messageText:focus, #messageTitle:focus, .create-message-btn:focus{
+    box-shadow: 0 0 8px  #005B3F;
+    border: none;
+}
+.forum-button{
+    width: 100%;
+}
+.forum-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-message-btn{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #005B3F;
+    border-color: transparent;
+}
+.create-message-btn:hover{
+    background-color: #196b52;
+    border-color: #196b52;
+}
+.create-message-btn:focus{
+    background-color:#005B3F;
+    border: none;
+    box-shadow: none;
+ }
+
+.closed-alert{
+    right: -500px;
+}
+.opened-alert{
+    right: 0;
+}
+.alert-forum{
+    position: absolute;
+    top: 75px;
+    transition: 600ms ease-in;
+}
+.wrong-input{
+    margin-right: 40px;
+}
+.not-clickable:disabled{
+    background-color: grey;
+    border: none;
+    box-shadow: 0 0 8px  grey;
+}.not-clickable{
+     background-color: gray;
+ }
+
+ .forum-button-switch{
+     padding-left: 35%;
+     padding-top: 2%;
+ }
+
+ .forum-button-switch li{
+     display: inline-block;
+ }
+ #messagesButton {
+     border: lightgrey 2px solid;
+     text-align: center;
+     padding-inline: 20px;
+     padding-block: 5px;
+     background-color: #f2f2f2;
+     color: #196b52;
+
+ }
+ #storiesButton{
+     border: lightgrey 2px solid;
+     text-align: center;
+     padding-inline: 20px;
+     padding-block: 5px;
+     background-color: #f2f2f2;
+     color: #196b52;
+ }
+
+ #storiesButton:hover{
+     box-shadow: none;
+ }
+
+ #messagesButton:hover{
+     box-shadow: none;
+ }
+

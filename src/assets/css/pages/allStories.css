@@ -1,0 +1,83 @@
+.search-bar {
+    max-width: 500px;
+}
+
+.articleStories {
+    max-width: 800px;
+    margin: auto;
+}
+
+.articleForumMessage {
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+}
+
+.pMaxHeight {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pMaxHeight2 {
+    max-height: 80px;
+    text-overflow: ellipsis;
+}
+
+.margintop {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+.tag {
+    text-decoration: none;
+    color: white;
+    padding: 2px 12px 2px 10px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.tagPlaats {
+    background-color: #0b5ed7;
+}
+
+input[type="text"]:-webkit-autofill {
+    background-color: yellow;
+    font-size: 16px;
+}
+
+.createButton{
+    padding: 2px 12px 2px 10px;
+    background-color: #FE938C;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.createButton:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.storyFigure {
+    max-width: 120px;
+    max-height: 100px ;
+    min-height: 100px ;
+    min-width: 100px ;
+
+
+}
+
+.storyIMG{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30aede7c-33ee-4f78-8248-239706266c8e" name="Changes" comment="...">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15-3-2023_11_02__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15-3-2023_11_02__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/js/controllers/mapController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/js/controllers/mapController.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="storyBuilderUsingView" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OvSKWFU09ZH8Gtm4lHlkUxLaSH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/marco/OneDrive - HvA/IdeaProjects/team-2/server/config",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marco\OneDrive - HvA\IdeaProjects\team-2\server\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marco\OneDrive - HvA\IdeaProjects\team-2\server\cypress\integration\pad" />
+      <recent name="C:\Users\marco\OneDrive - HvA\IdeaProjects\team-2\src\html_views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="cy:open" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="cy:open" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.cy:open" />
+        <item itemvalue="npm.cy:open" />
+        <item itemvalue="npm.cy:open" />
+        <item itemvalue="npm.cy:open" />
+        <item itemvalue="npm.cy:open" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30aede7c-33ee-4f78-8248-239706266c8e" name="Changes" comment="" />
+      <created>1682439500453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682439500453</updated>
+      <workItem from="1682439502171" duration="660000" />
+      <workItem from="1682486859861" duration="14624000" />
+      <workItem from="1683198613549" duration="1209000" />
+      <workItem from="1683214050186" duration="905000" />
+      <workItem from="1683396139452" duration="15395000" />
+      <workItem from="1683450767510" duration="20160000" />
+      <workItem from="1683617916907" duration="10372000" />
+      <workItem from="1683696929168" duration="5800000" />
+      <workItem from="1683991455839" duration="2202000" />
+      <workItem from="1684151030077" duration="1252000" />
+      <workItem from="1684170587427" duration="11012000" />
+      <workItem from="1684218970566" duration="18089000" />
+      <workItem from="1684268956471" duration="427000" />
+      <workItem from="1684318599763" duration="864000" />
+      <workItem from="1684663822661" duration="32000" />
+    </task>
+    <task id="LOCAL-00001" summary="toevoeging forumpostview en aanpassing mapController.js inladen stories">
+      <created>1682494590698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682494590698</updated>
+    </task>
+    <task id="LOCAL-00002" summary="toevoeging forumpostview en aanpassing mapController.js inladen stories">
+      <created>1683402781546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683402781546</updated>
+    </task>
+    <task id="LOCAL-00003" summary="maken comments werkt volledig">
+      <created>1683467295943</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683467295943</updated>
+    </task>
+    <task id="LOCAL-00004" summary="aanpassing afbeelding map">
+      <created>1683624214642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683624214642</updated>
+    </task>
+    <task id="LOCAL-00005" summary="aanpassing afbeelding map">
+      <created>1683624292596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683624292596</updated>
+    </task>
+    <task id="LOCAL-00006" summary="aanpassing afbeelding map">
+      <created>1683624685237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683624685237</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added server check">
+      <created>1683625333399</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683625333399</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added server check">
+      <created>1683625996020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683625996020</updated>
+    </task>
+    <task id="LOCAL-00009" summary="idk">
+      <created>1683633554467</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683633554467</updated>
+    </task>
+    <task id="LOCAL-00010" summary="map locaties inladen via server">
+      <created>1684178065255</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684178065255</updated>
+    </task>
+    <task id="LOCAL-00011" summary="model verbeterd met controls">
+      <created>1684183095758</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684183095758</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bezig met animatie">
+      <created>1684188238014</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684188238014</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bezig met animatie">
+      <created>1684232089783</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684232089783</updated>
+    </task>
+    <task id="LOCAL-00014" summary="...">
+      <created>1684315861102</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684315861102</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/storyBuilderUsingView" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="toevoeging forumpostview en aanpassing mapController.js inladen stories" />
+    <MESSAGE value="maken comments werkt volledig" />
+    <MESSAGE value="aanpassing afbeelding map" />
+    <MESSAGE value="added server check" />
+    <MESSAGE value="idk" />
+    <MESSAGE value="map locaties inladen via server" />
+    <MESSAGE value="model verbeterd met controls" />
+    <MESSAGE value="bezig met animatie" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
+  </component>
+</project>

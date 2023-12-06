@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+  <label for="title">Title:</label>
+  <input type="text" id="title" name="title" data-tooltip="Enter a title for your post">
+</head>
+<body>
+<script>
+  console.log("Script loaded");
+
+  function showTooltip(event) {
+    const tooltip = document.createElement('div');
+    tooltip.className = 'tooltip';
+    tooltip.textContent = event.target.dataset.tooltip;
+    event.target.parentNode.appendChild(tooltip);
+    const rect = event.target.getBoundingClientRect();
+    tooltip.style.top = rect.top - tooltip.offsetHeight - 5 + 'px';
+    tooltip.style.left = rect.left + (event.target.offsetWidth - tooltip.offsetWidth) / 2 + 'px';
+  }
+
+  function hideTooltip(event) {
+    const tooltip = event.target.parentNode.querySelector('.tooltip');
+    if (tooltip) {
+      tooltip.parentNode.removeChild(tooltip);
+    }
+  }
+
+  const fields = document.querySelectorAll('[data-tooltip]');
+  fields.forEach(field => {
+    field.addEventListener('mouseover', showTooltip);
+    field.addEventListener('mouseout', hideTooltip);
+  });
+</script>
+<p>halllooo</p>
+
+
+</body>
+</html>

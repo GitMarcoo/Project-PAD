@@ -1,0 +1,71 @@
+*{
+    font-family: RedHatDisplay-Variable;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #2F72B9;
+}
+
+.bd-navbar .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color: #cbbde2;
+}
+
+
+
+.textTitelColor {
+    color: #167A8B;
+}
+
+.textColor1 {
+    color: #007A5C;
+}
+
+.greenColor {
+    color: #7EB09B;
+}
+
+.textColor2 {
+    color: #607174;
+}
+
+.search-bar .form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da ;
+    border-right-color: #28a745;
+}
+
+.searchbutton {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+img {
+    object-fit: cover;
+}
+.create-forum-message{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+@font-face {
+    font-family: 'RedHatDisplay-Variable';
+    src: url('../fonts/RedHatDisplay-Variable.woff2') format('woff2'),
+    url('../fonts/RedHatDisplay-Variable.woff') format('woff'),
+    url('../fonts/RedHatDisplay-Variable.ttf') format('truetype');
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+
+

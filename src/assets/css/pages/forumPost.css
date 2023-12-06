@@ -1,0 +1,146 @@
+.forumPost {
+    max-width: 600px;
+    margin: auto;
+}
+
+.buttonBackground {
+    background-color: #005B3F;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    max-height: 40px;
+    display: flex;
+    max-width: fit-content;
+
+}
+
+.backButtonBackground {
+    background-color: #196b52;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    max-height: 40px;
+    display: flex;
+    max-width: fit-content;
+    margin-bottom: 10px;
+}
+
+.labelBackground {
+    font-weight: 500;
+    color: #4f7268;
+    border: none;
+    max-height: 40px;
+    display: flex;
+    max-width: fit-content;
+    margin-bottom: 10px;
+}
+
+.buttonBackground:hover {
+    background-color: #03734e;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    max-height: 40px;
+    display: flex;
+    max-width: fit-content;
+}
+
+#backButton {
+    text-decoration: none;
+    padding-right: 10px;
+    color: white;
+}
+
+textarea {
+    resize: vertical;
+    outline: none;
+
+
+}
+
+textarea:focus  {
+    outline: none;
+}
+
+.vertical {
+    display: block;
+    height: inherit;
+    border-left: 2px #7EB09B solid;
+    width: 10px;
+}
+
+.commentdate {
+    font-size: 12px;
+    color: #4f7268;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 3px;
+}
+
+.commentusername {
+    font-size: 12px;
+    color: #4f7268;
+    margin: 0;
+}
+
+.commentdate2 {
+    font-size: 12px;
+    color: #4f7268;
+    margin: 0;
+}
+
+.commentdiv {
+    width: 100%;
+}
+
+.commentdiv1{
+    width: 100%;
+    height: fit-content;
+}
+
+.commentdiv2 {
+    width: 100%;
+    height: 80%;
+}
+
+.commentdiv3 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.commentbutton {
+    border: none;
+    height: 100%;
+    color: white;
+    background-color: #7EB09B ;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.commentbutton:hover{
+    background-color: #03734e
+}
+
+.margintop {
+    margin-top: 10px;
+}
+
+.smallmargintop {
+    margin-top: 10px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
+
+
+
+

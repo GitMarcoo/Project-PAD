@@ -1,0 +1,151 @@
+.overlay-background{
+    position: absolute;
+    display: none;
+    background: black;
+    opacity: 0.25;
+    top: 60px;;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 1;
+}
+/*.outer {*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*}*/
+
+.map-overlay{
+    width: 37vw;
+    height: 100vh;
+    position: absolute;
+    background-color: white;
+    top: 60px;
+    right: -40vw;
+    bottom: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 3;
+    transition: 600ms ease-in;
+}
+
+@media (max-width: 767px) {
+    .map-overlay {
+        width: 60vw;
+        right: -65vw;
+    }
+}
+
+/*@media (max-width: 767px) {*/
+/*    .map-overlay {*/
+/*        top: auto;*/
+/*        bottom: -100vh;*/
+/*        left: 0;*/
+/*        right: 0;*/
+/*        height: 100vh;*/
+/*        width: 100%;*/
+/*        transition: 600ms ease-in;*/
+/*    }*/
+/*}*/
+
+
+
+
+
+.overlay-content{
+    padding: 5px;
+
+}
+.overlay-scroll{
+    height: 100%;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+   width: 5px;
+    background: white;
+
+}
+::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+.overlay-scroll::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+}
+.overlay-scroll::-webkit-scrollbar-thumb{
+    background: #005B3F;
+}
+.btn-close{
+    right: 25px;
+    position: absolute;
+
+}
+.stories{
+    padding: 20px;
+}
+.behind-location-hover{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.location-hover{
+    padding: 5px;
+    position: absolute;
+    width: 225px;
+    /*height: 100px;*/
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid #005B3F;
+    left: 0;
+    top: 0;
+}
+.number-of-stories{
+    color: #005B3F;
+    margin-right: 0.3rem;
+}
+.about-story h4{
+    font-size: 20px;
+    border-bottom: solid black 1px;
+    padding-bottom: 5px;
+}
+
+.make-story-btn{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-story-for-location{
+    background-color: #005B3F;
+    border-color: transparent;
+    padding: 4px;
+    border-radius: 6px;
+}
+.create-story-for-location:hover{
+    background-color: #196b52;
+    border-color: #196b52;
+}
+.create-story-for-location:focus{
+    background-color:#005B3F;
+    border: none;
+    box-shadow: none;
+}
+.text-story-for-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #005B3F;
+}
+
+.no-stories{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+

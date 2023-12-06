@@ -1,0 +1,53 @@
+<div class="container justify-content-center createStoryForm">
+    <h1 class="my-4 text-center textTitelColor">Verhaal plaatsen</h1>
+        <form class="my-3 row mx-auto ">
+            <!--top section-->
+            <section class="row gap-2">
+                <!-- Upload image -->
+                <div class="image-upload col-4 d-flex flex-column align-items-center my-1">
+                    <figure class="imgPreviewFigure justify-content-center">
+                        <img class="imgPreview " src="../assets/pictures/image 6.png" alt="upload image" id="imgPreview">
+                    </figure>
+                    <label class="imgLabel" for="sampleFile">Upload Foto</label>
+                    <input class="imgInput create-message-btn" id="sampleFile" type="file" accept="image"/>
+                </div>
+
+                <div class="col-6 col ">
+                <!-- Title and text input -->
+                    <div class="row ">
+                        <label class="textColor1 h5 m-0 p-0">Titel: </label>
+                        <p class="error d-none m-0 p-0" id="titleError"></p>
+                        <input class="inputRows" type="text" id="title" name="title" placeholder="Titel..">
+                    </div>
+                    <!-- Location dropdown -->
+                    <div class="row my-3">
+                        <label class="textColor1 h5 m-0 p-0">Locatie: </label>
+                        <p class="error d-none m-0 p-0" id="locationError"></p>
+                        <select id="location" class="inputRows">
+                            <option value="" disabled selected>Kies een locatie</option>
+                        </select>
+                    </div>
+
+                    <div class="row ">
+                        <label class="textColor1 h5 m-0 p-0">Datum: </label>
+                        <p class="error d-none m-0 p-0" id="dateError"></p>
+                        <input class="inputRows" type="date" id="date" name="date" value="">
+                    </div>
+                </div>
+            </section>
+            <section class="row my-3 ">
+                <label  class="textColor1 h5 m-0 p-0" for="story">Schrijf uw verhaal over de Florijn van max. 8000 karakter</label>
+                <p class="error d-none m-0 p-0" id="storyError"></p>
+                <textarea class="my-1 storyTextarea" id="story" name="story" placeholder="Schrijf je verhaal..."></textarea>
+                <span id="char-count"></span>
+
+                <!-- Shows error if there is one -->
+
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn buttonBackground my-2 justify-content-end" id="submit" >Plaats verhaal</button>
+                </div>
+            </section>
+        </form>
+</div>
+
+

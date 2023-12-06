@@ -1,0 +1,169 @@
+
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.nav{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.override-nav-item{
+    display: inline-block;
+    padding: 0;
+    margin-right:20px;
+    transition: 250ms ease;
+}
+nav i{
+    color: white;
+    font-size: 25px;
+}
+nav .icon, .fa-bars{
+    cursor: pointer;
+}
+.nav-icons i{
+    float: right;
+}
+
+.fa-user{
+    margin-left: 20px;
+}
+.nav-container{
+    width: 100vw;
+    height: 60px;
+    padding: 15px 20px;
+    display: flex;
+    background-color: #005B3F;
+}
+.nav-logo{
+    width: 25vw;
+}
+.nav-icons{
+    width: 25vw;
+}
+.nav a{
+    position: relative;
+}
+.nav-container p, .nav-items a{
+    font-size: 20px;
+    color: white;
+}
+.nav a:after{
+    content: "";
+    position: absolute;
+    background: white;
+    height: 2px;
+    width: 0;
+    left: 50%;
+    bottom: -6px;
+    transition: 0.2s;
+}
+.nav a:hover::after{
+    left: 0;
+    width: 100%;
+}
+a.active::after{
+    left: 0;
+    width: 100%;
+}
+/*
+    Nav icons
+*/
+
+
+/*
+Dropdowns
+*/
+
+/*User dropdown*/
+.user-dropdown-items li{
+    padding: 2px;
+    margin: 2px;
+    width: 85%;
+    border-radius: 5px;
+}
+
+.user-dropdown-items a{
+    display: block;
+    color: black;
+    padding: 0.2rem 0.2rem 0.2rem 10px;
+}
+.user-dropdown-items a:hover{
+    background-color: #005B3F;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.nav-user-dropdown{
+    display: none;
+    background-color: white;
+    right:10px;
+    position: absolute;
+    padding: 3px;
+    width: 120px;
+    min-width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.nav-user-dropdown ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+/*Notifactions dropdown*/
+
+
+.burger-menu{
+    display: none;
+}
+
+/*
+    Media queries to make te page responsive
+*/
+@media (max-width: 1078px) {
+    .burger-menu{
+        display: block;
+    }
+    .nav-items{
+        position: absolute;
+        width: 100%;
+        height: 190px;
+        background: #005B3F;
+        z-index: 3;
+        top: 58px;
+        left: -100vw;
+        padding: 20px;
+    }
+    .override-nav-item{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .nav-logo p{
+        position: absolute;
+        left: 43vw;
+    }
+    .nav-user-dropdown{
+        z-index: 2;
+    }
+    .nav {
+
+    }
+}
+@media (max-width: 612px) {
+    .nav-logo p{
+        position: absolute;
+        left: 75px;
+    }
+    .nav-icons{
+        width: 200px;
+    }
+}

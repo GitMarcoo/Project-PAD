@@ -1,0 +1,27 @@
+<div class="container justify-content-center my-3">
+    <h1 class="text-center textTitelColor">Alle verhalen</h1>
+    <section class="d-flex justify-content-center my-4">
+        <h5 class="text-center my-auto textColor1 fst-italic">Leuk verhaal? Plaats het!</h5>
+        <a class="mx-3 createButton" data-controller="addStories" id="createButton" href="#addStories">Maak Verhaal</a>
+    </section>
+    <section class="d-flex my-5 justify-content-center">
+
+<!--         For sorting from new to old html #todo-->
+        <div class="justify-content-start d-flex ">
+            <div class="filter-stories sorting-buttons " id="sortStories">
+                <h5>Sorteren op</h5>
+                <button id="newOld">Nieuwste</button>
+                <button id="oldNew">Oudste</button>
+            </div>
+        </div>
+    </section>
+    <div class="d-flex justify-content-start articleStories gap-3" id="searchTags">
+
+    </div>
+    <section class="py-3" id="stories">
+
+    </section>
+    <section class="py-3">
+        <h5 class="text-center textColor1 hidden" id="allStoriesLoaded">Alle verhalen zijn geladen</h5>
+    </section>
+</div>

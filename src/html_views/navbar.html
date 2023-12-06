@@ -1,0 +1,33 @@
+<nav>
+    <div class="nav-container">
+        <div class="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav-logo">
+            <p>DE FLORIJN</p>
+        </div>
+        <div class="nav">
+            <ul class="nav-items">
+                <li class="override-nav-item"><a data-controller="map" class="ov-nav-link active" href="#">Home</a></li>
+                <li class="override-nav-item"><a data-controller="allStories" class="ov-nav-link" href="#">Verhalen</a></li>
+                <li class="override-nav-item"><a data-controller="forum" class="ov-nav-link" href="forum.html">Forum</a></li>
+<!--                <li class="override-nav-item"><a data-controller="map" class="ov-nav-link" href="#">Kaart</a></li>-->
+<!--                <li class="override-nav-item"><a data-controller="forum" class="ov-nav-link" href="#">Forum</a></li>-->
+<!--                <li class="override-nav-item"><a data-controller="evenementen" class="ov-nav-link" href="#">Evenementen</a></li>-->
+            </ul>
+        </div>
+        <div class="nav-icons">
+            <i class="fa-solid fa-user icon"></i>
+            <p class="text-end" id="navUsername">Login in</p>
+<!--            <i class="fa-solid fa-envelope icon"></i>-->
+        </div>
+    </div>
+    <div class="nav-user-dropdown">
+        <div class="user-dropdown-items">
+            <ul class="items-drop">
+<!--                <li class="profile-link"><a href="#">Profiel</a></li>-->
+                <li><a class="ov-nav-link" data-controller="logout"  href="#">Inloggen</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
